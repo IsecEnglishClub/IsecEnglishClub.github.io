@@ -132,9 +132,13 @@ body{
 }
 .about-R{
     flex: 0.4;
+    display: flex;
+    justify-content: center;
 }
 .about-R img{
 width: 80%;
+height: 50%;
+
 }
 .about-L{
     flex: 0.5;

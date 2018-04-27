@@ -170,22 +170,27 @@ height: 80%;
 .registration-info p{
     font-size: 17px;
 }
-.registration-form{
+.registration-form {
     display: flex;
     flex: 4;
     flex-direction: column;
     width: 100%;
+    
 }
-.registration-flex-item{
+.registration-flex-item {
     background: transparent;
     border: 1px solid #fff;
+    color: white;
     padding: 12px;
     margin: 7px 14px;
 }
-
+.registration-flex-item::placeholder{
+    color: white;
+}
 .reg-btn{
-    width: 50%;
-    margin-left: 47%;
+    width: 30%;
+    /* float: left; */
+    margin: 3px auto;
     padding: 1px unset;
     border-radius: 22px;
     border:  none;

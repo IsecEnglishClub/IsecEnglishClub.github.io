@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    padding: 0;
+    color: #ddd;    
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+}
+
+.mainNav {
+    display: -webkit-flex;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+}
+.mainNav-ul {
+    display: flex;
+    list-style: none;
+    margin: 2px 20px; 
+}
+
+.mainNav li {
+    list-style: none;
+    margin: 2px 20px;
+    text-align: center;
+}
+
+.mainNav a {
+    text-decoration: none;
+    text-transform: uppercase;    
+    color: inherit;    
+    transition: all 0.4s ease-in-out;
+}
+
+.mainNav a:hover {
+    color: #337ab7;
+}
+
+.hidden-btn{
+    width: 100%;
+    background: black;
+    text-align: end;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+}
+
+@media screen and (max-width: 600px) {
+    .mainNav{
+        position: static;
+    }
+    .mainNav-ul.responsive{
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    .hidden-btn{
+        display: block;
+        font-size: 10vh;
+        padding-right: 20px;
+        padding-top: 2px;
+    }
+  }
+
+
+
+  /* Header */
+  .header {
+    background: url(bg-img/london.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:  column;
+    vertical-align: middle;
+    justify-content:  center;
+    align-items:  center;
+    box-sizing:  border-box;
+    padding-top: 3%;
+}
+
+.header-welcome {font-size: 50px;margin-top: 10vw;color:  white;}
+
+.header-btns {
+    display: inline-block;
+    width: 30%;
+    margin-top: 42px;
+    /* float: right; */
+}
+
+.header-btn {
+    /* height: 41px; */
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    /* font-size: 13px; */
+    text-align: center;
+    /* align-items: center; */
+    /* padding-top: 4px; */
+    float: left;
+    width: 48%;
+}
+
+.header-btnR {
+    background-color: #fd2d5c;
+    border-color: #fd2d5c;
+    /* float: right; */
+}
+
+@media screen and (max-width: 600px) {
+
+    .header-btnL{
+        display: none;
+    }
+    .header-btnR{
+        width: 100%;
+    }
+    .header-welcome{
+        font-size: 20px;
+    }
+
+}
+

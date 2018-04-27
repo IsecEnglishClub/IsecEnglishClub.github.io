@@ -140,7 +140,11 @@ width: 80%;
     flex: 0.5;
     color: #4a474e;
 }
-
+@media only screen and (max-width: 600px) {
+    .about{
+        flex-direction: column;
+    }
+}
 /* Registration */
 .registration{
     display: flex;

@@ -137,7 +137,7 @@ body{
 }
 .about-R img{
 width: 80%;
-height: 50%;
+height: 80%;
 
 }
 .about-L{
@@ -158,8 +158,6 @@ height: 50%;
     align-items:  center;
 }
 .registration-info{
-    -webkit-box-flex: 6;
-    -ms-flex: 6;
     box-sizing: border-box;
     align-items: center;
     flex: 6;
@@ -176,6 +174,7 @@ height: 50%;
     display: flex;
     flex: 4;
     flex-direction: column;
+    width: 100%;
 }
 .registration-flex-item{
     background: transparent;
